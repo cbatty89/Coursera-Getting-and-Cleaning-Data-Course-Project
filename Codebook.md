@@ -21,7 +21,7 @@
 These signals were used to estimate variables of the feature vector for each pattern from the original datasets:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
+###tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
 tBodyGyro-XYZ
@@ -39,12 +39,12 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
+###The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
 std(): Standard deviation
 
 
-The script rewrites t to stand for Time, f to FFT for Fast Fourier Transform.  It also rewrites mean() as Mean and std() as STD.  These changes were made to aid in readability.
+###The script rewrites t to stand for Time, f to FFT for Fast Fourier Transform.  It also rewrites mean() as Mean and std() as STD. These changes were made to aid in readability.
 
 
