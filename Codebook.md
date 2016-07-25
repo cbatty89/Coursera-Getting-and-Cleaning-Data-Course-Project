@@ -18,3 +18,33 @@
 ###The final steps are to calculate the mean of each column by the grouping above and to then write the created table to a text file title Tidy_Data.txt.
 
 ###Below are the variables contained within Tidy_Data.txt:
+These signals were used to estimate variables of the feature vector for each pattern from the original datasets:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+
+
+The script rewrites t to stand for Time, f to FFT for Fast Fourier Transform.  It also rewrites mean() as Mean and std() as STD.  These changes were made to aid in readability.
+
+
