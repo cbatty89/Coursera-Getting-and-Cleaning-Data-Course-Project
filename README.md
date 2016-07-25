@@ -10,4 +10,6 @@
 
 ###Once the data has been downloaded and the working directory in R has been set to where the data is located, the R Script run_analysis.R can be utilized to create a Tidy_Dataset which contains the mean values by participant and activity for each of the mean and standard deviation variables provided within the downloaded data.
 
+###In order to utilze this script the user must have installed the dplyr version 0.5 package to their version of R.
+
 ###The codebook located within the repository gives a brief walkthrough of how the script works as well as a list of variable names.
